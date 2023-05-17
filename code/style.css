@@ -1,0 +1,102 @@
+body {
+    width: 60%; /* adjust as needed */
+    margin: 0 auto; /* center the content */
+    background-image: url("/Ressources/fond.png"); /* replace with your image */
+}
+
+main {
+    background-color:rgb(255, 255, 255);
+    padding: 10px;
+    display: flex;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}
+
+img {
+    margin-bottom: 50px;
+    margin-right: 0px;
+    width: 180px;
+}
+
+.ribbon {
+    background-color: rgba(255, 237, 173, 0.955);
+    color: rgb(227, 146, 25);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    font-family: 'font Oswald';
+    font-size: 24px;
+    }
+
+word {
+    display: inline-block;
+}
+
+.action-button {
+    background-color: #E69419;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 20px 10px;
+    float: right;
+  }
+
+
+.action-button2 {
+    background-color: #E69419;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 20px 10px;
+    float: right;
+}
+
+h2 {
+    color: rgb(227, 146, 25);
+    display: inline;
+}
+
+.image-text-container {
+    overflow: auto;
+  }
+  
+  img {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 0px;
+  }
+  
+  p {
+    float: right;
+  }
+
+  #btn2 {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  
+  
+  
+  
+  
+
+  
+

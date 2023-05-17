@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="ribbon">
+            <img src="/Ressources/super.png" width=10% height=10% />
+            <span class="words">QUI SOMMES-NOUS</span>
+            <span class="words">A PROPOS DE NOUS</span>
+            <span class="words">CONTACT</span>
+        </nav>
+    </header> 
+    <main>
+        <section class="section">
+            <box-icon type='solid' name='mask' color='#E69419' animation="tada"></box-icon>
+        <h2>Qui sommes-nous
+        <div class="image-text-container"></div></h2>
+        <img src="/Ressources/equipe.png" width=10% height=10% />
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus.</p>
+    </div>
+
+        <section>
+            <span class="text">«Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor. Cras vestibulum bibendum augue. Praesent egestas leo in pede. Praesent blandit odio eu enim. Pellentesque sed dui ut augue blandit sodales.</span>
+            <div id="more-text" style="display:none;">
+                <p>Lorem ipsum detete le il djs salut c'est qui la oui quoi non mais maison entrer Lorem ipsum detete le il djs salut c'est qui la oui quoi non mais maison entrer Lorem ipsum detete le il djs salut c'est qui la oui quoi non mais maison entrer</p>
+              </div>
+              <button class="action-button" type="submit" onclick="toggleMoreText()">Lire plus ...</button>
+              <script>
+                function toggleMoreText() {
+                  var moreText = document.getElementById("more-text");
+                  if (moreText.style.display === "none") {
+                    moreText.style.display = "block";
+                  } else {
+                    moreText.style.display = "none";
+                  }
+                }
+                </script>
+                </section>
+                
+            <box-icon type='solid' name='mask' color='#E69419' animation="tada"></box-icon>
+            <h2>Que faisons nous
+            <div class="image-text-container"></div></h2>
+            <img src="/Ressources/money.png" width=10% height=10% />
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus.</p>
+        </div>
+        <span class="text">«Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor. Cras vestibulum bibendum augue. Praesent egestas leo in pede. Praesent blandit odio eu enim. Pellentesque sed dui ut augue blandit sodales.</span>
+        <ul>
+            <li>Lorem ipsum detete le il djs salut c'est qui la oui quoi non mais maison entrer</li>
+            <li>Lorem ipsum detete le il djs salut c'est qui la oui quoi non mais maison entrer</li>
+            <li>Lorem ipsum detete le il djs salut c'est qui la oui quoi non mais maison entrer</li>
+            <li>Lorem ipsum detete le il djs salut c'est qui la oui quoi non mais maison entrer</li>
+        </ul>
+        <div id="more-text2" style="display:none;">
+            <p>Lorem ipsum detete le il djs salut c'est qui la oui quoi non mais maison entrer Lorem ipsum detete le il djs salut c'est qui la oui quoi non mais maison entrer Lorem ipsum detete le il djs salut c'est qui la oui quoi non mais maison entrer</p>
+          </div>
+          
+            <button class="action-button2" id="toggle-text2">Lire plus ...</button>
+            <div id="more-text2" style="display: none;">
+                This is more text 2.
+            </div>
+            
+            <script>
+                var toggleText2Btn = document.getElementById("toggle-text2");
+                var moreText2 = document.getElementById("more-text2");
+            
+                toggleText2Btn.addEventListener("click", function() {
+                    if (moreText2.style.display === "none") {
+                        moreText2.style.display = "block";
+                    } else {
+                        moreText2.style.display = "none";
+                    }
+                });
+            </script>
+            
+
+    </section>
+    </main>
+</body>
+</html>
